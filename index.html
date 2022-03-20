@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;500;700;800&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            
+              <div class="header__top" >
+                <div class="logo">
+                    <a href="#">
+                        <img src="img/book.png" alt="">
+                    </a>
+                </div>
+                <nav class="menu">
+                    <ul class="menu__list"> 
+                        <li class="menu__lits-item"><a href="#skidki1" class="menu__list-link">Главная</a></li>
+                        <li class="menu__lits-item"><a href="#catolog" class="menu__list-link">Магазин</a></li>
+                        <li class="menu__lits-item"><a href="#girls-menu " class="menu__list-link">Скидки</a></li>
+                        <li class="menu__lits-item"><a href="#" class="menu__list-link">Популярные</a></li>
+                        <li class="menu__lits-item"><a href="#infolbock" class="menu__list-link">Контакты</a></li>
+                    </ul>
+                </nav>
+                <div class="exit">
+                <a href="https://api.whatsapp.com/send?phone=+77085905057">
+                    <p class="phone">+77085905057</p></a>
+                </div>
+                </div>
+           
+            
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <div class="main-content">
+               
+                    <div class="content-text">
+                        <h1 class="title"><span class="title-l">Чтение</span> - основа жизненного&nbsp;успеха</h1>
+                        <p class="title-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero voluptatem sed provident quos, quod illum cum necessitatibus! Pariatur impedit nesciunt laudantium voluptate veritatis, quisquam enim molestiae in illo sed asperiores.</p>
+                        <a class="btn-shop" href="">Магазин</a>
+                    </div>
+                    <div class="content-img">
+                    <img src="img/bg.png" alt="">
+            
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <h2 class="title-h2">
+        Категория
+    </h2>
+    <section class="gird-section container">
+    
+        <div class="grid grid-1">
+            <div class="grid-img">
+              <img class="img-gum" src="img/humanitarian.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">гуманитар </h2>
+                <a href="" class="btn">Btn</a>
+            </div>
+        </div>
+        <div class="grid grid-2">
+            <div class="grid-img">
+              <img class="img-gum" src="img/medicine.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">медицина </h2>
+                <a href="" class="btn">Btn</a>
+            </div>
+        </div>
+        <div class="grid grid-3">
+            <div  class="grid-img">
+              <img src="img/artificial-intelligence.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">технические </h2><a href="" class="btn">Btn</a>
+            </div>
+        </div>
+        <div class="grid grid-4">
+            <div class="grid-img">
+              <img class="img-gum"  src="img/planet.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">космос </h2><a href="" class="btn">Btn</a>
+            </div>
+        </div>
+        <div class="grid grid-5">
+            <div class="grid-img">
+              <img class="img-gum" src="img/geography.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">география </h2><a href="" class="btn">Btn</a>
+            </div>
+        </div>
+        <div class="grid grid-6">
+            <div class="grid-img">
+              <img src="img/biology.png" alt="">
+            </div>
+            <div class="text-img">
+                <h2 class="h2-cat">биология </h2><a href="" class="btn">Btn</a>
+            </div>
+        </div>
+    
+    </section>
+    <section class="cat-inffo">
+        <div class="container container-catalog">
+            <div class="categ-content">
+                
+               <div class="list-categ">
+                <h2 class="title-h2">Магазин</h2>
+                   <ul id="filter-btns" class="lits-item" >
+                       <li data-target="gum">гуманитар</li>
+                       <li data-target="med">медицина</a></li>
+                       <li data-target="tech">технические</a></li>
+                       <li data-target="cos">космос</a></li>
+                       <li data-target="geo">география</a></li>
+                       <li data-target="bio">биология</a></li>
+                   </ul>
+               </div>
+                    
+               <div class="book-catalog">
+                   <div data-id="gum" class="book-item">
+                       <img class="book-img" src="img/gum/1.jpg" alt="">
+                       <div class="book-tem-text">
+                           <div class="rank">
+                            <div class="rating-result">
+                                <span class="active"></span>	
+                                <span class="active"></span>    
+                                <span class="active"></span>  
+                                <span class="active"></span>    
+                                <span></span>
+                            </div>
+                           </div>
+                           <div class="book-title">Невидимые женщины
+                            </div>
+                           <div class="author">Кэролайн Криадо Перес
+                            </div>
+                           <div class="price">1000тг</div>
+                           <a href="" class="buy-btn">Купить</a>
+                       </div>
+                   </div>
+                   <div data-id="med" class="book-item">
+                    <img class="book-img" src="img/gum/2.jpg" alt="">
+                    <div class="book-tem-text">
+                        <div class="rank">
+                         <div class="rating-result">
+                             <span class="active"></span>	
+                             <span class="active"></span>    
+                             <span class="active"></span>  
+                             <span class="active"></span>    
+                             <span></span>
+                         </div>
+                        </div>
+                        <div class="book-title">Невидимые женщины
+                            
+                         </div>
+                        <div class="author">Кэролайн Криадо Перес
+                         </div>
+                        <div class="price">1000тг</div>
+                        <a href="" class="buy-btn">Купить</a>
+                        
+                    </div>
+                    </div>
+                    <div data-id="gum" class="book-item">
+                    <img class="book-img" src="img/gum/3.jpg" alt="">
+                    <div class="book-tem-text">
+                        <div class="rank">
+                         <div class="rating-result">
+                             <span class="active"></span>	
+                             <span class="active"></span>    
+                             <span class="active"></span>  
+                             <span class="active"></span>    
+                             <span></span>
+                         </div>
+                        </div>
+                        <div class="book-title">Невидимые женщины
+                         </div>
+                        <div class="author">Кэролайн Криадо Перес
+                         </div>
+                        <div class="price">1000тг</div>
+                        <a href="" class="buy-btn">Купить</a>
+                    </div>
+                </div>
+                <div data-id="tech" class="book-item">
+                    <img class="book-img" src="img/gum/4.jpg" alt="">
+                    <div class="book-tem-text">
+                        <div class="rank">
+                         <div class="rating-result">
+                             <span class="active"></span>	
+                             <span class="active"></span>    
+                             <span class="active"></span>  
+                             <span class="active"></span>    
+                             <span></span>
+                         </div>
+                        </div>
+                        <div class="book-title">Невидимые женщины
+                         </div>
+                        <div class="author">Кэролайн Криадо Перес
+                         </div>
+                        <div class="price">1000тг</div>
+                        <a href="" class="buy-btn">Купить</a>
+                    </div>
+                </div>
+                <div data-id="med" class="book-item">
+                 <img class="book-img" src="img/gum/5.jpg" alt="">
+                 <div class="book-tem-text">
+                     <div class="rank">
+                      <div class="rating-result">
+                          <span class="active"></span>	
+                          <span class="active"></span>    
+                          <span class="active"></span>  
+                          <span class="active"></span>    
+                          <span></span>
+                      </div>
+                     </div>
+                     <div class="book-title">Невидимые женщины
+                      </div>
+                     <div class="author">Кэролайн Криадо Перес
+                      </div>
+                     <div class="price">1000тг</div>
+                     <a href="" class="buy-btn">Купить</a>
+                 </div>
+             </div>
+             <div data-id="tech" class="book-item">
+                 <img class="book-img" src="img/gum/6.jpg" alt="">
+                 <div class="book-tem-text">
+                     <div class="rank">
+                      <div class="rating-result">
+                          <span class="active"></span>	
+                          <span class="active"></span>    
+                          <span class="active"></span>  
+                          <span class="active"></span>    
+                          <span></span>
+                      </div>
+                     </div>
+                     <div class="book-title">Невидимые женщины
+                      </div>
+                     <div class="author">Кэролайн Криадо Перес
+                      </div>
+                     <div class="price">1000тг</div>
+                     <a href="" class="buy-btn">Купить</a>
+                 </div>
+             </div>
+
+             <div data-id="cos" class="book-item">
+                <img class="book-img" src="img/gum/4.jpg" alt="">
+                <div class="book-tem-text">
+                    <div class="rank">
+                     <div class="rating-result">
+                         <span class="active"></span>	
+                         <span class="active"></span>    
+                         <span class="active"></span>  
+                         <span class="active"></span>    
+                         <span></span>
+                     </div>
+                    </div>
+                    <div class="book-title">sНевидимые женщины
+                     </div>
+                    <div class="author">Кэролайн Криадо Перес
+                     </div>
+                    <div class="price">1000тг</div>
+                    <a href="" class="buy-btn">Купить</a>
+                </div>
+            </div>
+            <div  data-id="geo" class="book-item">
+             <img class="book-img" src="img/gum/5.jpg" alt="">
+             <div class="book-tem-text">
+                 <div class="rank">
+                  <div class="rating-result">
+                      <span class="active"></span>	
+                      <span class="active"></span>    
+                      <span class="active"></span>  
+                      <span class="active"></span>    
+                      <span></span>
+                  </div>
+                 </div>
+                 <div class="book-title">Невидимые женщины
+                  </div>
+                 <div class="author">Кэролайн Криадо Перес
+                  </div>
+                 <div class="price">1000тг</div>
+                 <a href="" class="buy-btn">Купить</a>
+             </div>
+         </div>
+         <div data-id="bio" class="book-item">
+             <img class="book-img" src="img/gum/6.jpg" alt="">
+             <div class="book-tem-text">
+                 <div class="rank">
+                  <div class="rating-result">
+                      <span class="active"></span>	
+                      <span class="active"></span>    
+                      <span class="active"></span>  
+                      <span class="active"></span>    
+                      <span></span>
+                  </div>
+                 </div>
+                 <div class="book-title">Невидимые женщины
+                  </div>
+                 <div class="author">Кэролайн Криадо Перес
+                  </div>
+                 <div class="price">1000тг</div>
+                 <a href="" class="buy-btn">Купить</a>
+             </div>
+         </div>
+         <div data-id="bio" class="book-item">
+            <img class="book-img" src="img/gum/6.jpg" alt="">
+            <div class="book-tem-text">
+                <div class="rank">
+                 <div class="rating-result">
+                     <span class="active"></span>	
+                     <span class="active"></span>    
+                     <span class="active"></span>  
+                     <span class="active"></span>    
+                     <span></span>
+                 </div>
+                </div>
+                <div class="book-title">Невидимые женщины
+                 </div>
+                <div class="author">Кэролайн Криадо Перес
+                 </div>
+                <div class="price">1000тг</div>
+                <a href="" class="buy-btn">Купить</a>
+            </div>
+        </div>
+        <div data-id="geo" class="book-item">
+            <img class="book-img" src="img/gum/6.jpg" alt="">
+            <div class="book-tem-text">
+                <div class="rank">
+                 <div class="rating-result">
+                     <span class="active"></span>	
+                     <span class="active"></span>    
+                     <span class="active"></span>  
+                     <span class="active"></span>    
+                     <span></span>
+                 </div>
+                </div>
+                <div class="book-title">Невидимые женщины
+                 </div>
+                <div class="author">Кэролайн Криадо Перес
+                 </div>
+                <div class="price">1000тг</div>
+                <a href="" class="buy-btn">Купить</a>
+            </div>
+        </div>
+        <div   data-id="cos"class="book-item">
+            <img class="book-img" src="img/gum/6.jpg" alt="">
+            <div class="book-tem-text">
+                <div class="rank">
+                 <div class="rating-result">
+                     <span class="active"></span>	
+                     <span class="active"></span>    
+                     <span class="active"></span>  
+                     <span class="active"></span>    
+                     <span></span>
+                 </div>
+                </div>
+                <div class="book-title">Невидимые женщины
+                 </div>
+                <div class="author">Кэролайн Криадо Перес
+                 </div>
+                <div class="price">1000тг</div>
+                <a href="" class="buy-btn">Купить</a>
+            </div>
+        </div>
+               </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="carousel">
+            
+        <div class="container">
+            <div class="carousel__inner">
+
+                <div class="carousel__item item-1">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-2">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я2, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-3">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-4">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-5">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-6">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                <div class="carousel__item item-7">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img class="img-carusel" src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                
+                <div class="carousel__item item-8">
+                    <div class="carousel__item-box">
+                        <div class="carousel__item-content">
+                            <div class="rank">
+                                <div class="rating-result">
+                                    <span class="active"></span>	
+                                    <span class="active"></span>    
+                                    <span class="active"></span>  
+                                    <span class="active"></span>    
+                                    <span></span>
+                                </div>
+                            </div>
+                            <div class="high-title">Я, редактор
+                            </div>
+                        <div class="high-author">Николай Кононов</div>
+                        <div class="high-info">Перед редактором любого медиа стоит непростая задача: воодушевлять и направлять авторов</div>
+                        <a class="high-price">
+                            <div class="high-btn-content">Купить</div>
+                            <div class="high-btn-number">$25.00</div>
+                        </a>
+                        </div>
+                        <img src="img/gum/55.jpg" alt="">
+                    </div>
+                </div>
+                
+    
+            </div>
+        </div>
+    
+</section>
+<section class=" awards">
+    <div class="container container-catalog">
+        <h2 class="title-h2">Популярные</h2>
+        <div class="book-catalog">
+            <div data-id="cos" class="book-item">
+                <img class="book-img" src="img/gum/4.jpg" alt="">
+                <div class="book-tem-text">
+                    <div class="rank">
+                     <div class="rating-result">
+                         <span class="active"></span>	
+                         <span class="active"></span>    
+                         <span class="active"></span>  
+                         <span class="active"></span>    
+                         <span></span>
+                     </div>
+                    </div>
+                    <div class="book-title">Невидимые женщины
+                     </div>
+                    <div class="author">Кэролайн Криадо Перес
+                     </div>
+                    <div class="price">1000тг</div>
+                    <a href="" class="buy-btn">Купить</a>
+                </div>
+            </div>
+            <div  data-id="geo" class="book-item">
+             <img class="book-img" src="img/gum/5.jpg" alt="">
+             <div class="book-tem-text">
+                 <div class="rank">
+                  <div class="rating-result">
+                      <span class="active"></span>	
+                      <span class="active"></span>    
+                      <span class="active"></span>  
+                      <span class="active"></span>    
+                      <span></span>
+                  </div>
+                 </div>
+                 <div class="book-title">Невидимые женщины
+                  </div>
+                 <div class="author">Кэролайн Криадо Перес
+                  </div>
+                 <div class="price">1000тг</div>
+                 <a href="" class="buy-btn">Купить</a>
+             </div>
+         </div>
+         <div data-id="bio" class="book-item">
+             <img class="book-img" src="img/gum/6.jpg" alt="">
+             <div class="book-tem-text">
+                 <div class="rank">
+                  <div class="rating-result">
+                      <span class="active"></span>	
+                      <span class="active"></span>    
+                      <span class="active"></span>  
+                      <span class="active"></span>    
+                      <span></span>
+                  </div>
+                 </div>
+                 <div class="book-title">Невидимые женщины
+                  </div>
+                 <div class="author">Кэролайн Криадо Перес
+                  </div>
+                 <div class="price">1000тг</div>
+                 <a href="" class="buy-btn">Купить</a>
+             </div>
+         </div>
+         <div data-id="cos" class="book-item">
+            <img class="book-img" src="img/gum/4.jpg" alt="">
+            <div class="book-tem-text">
+                <div class="rank">
+                 <div class="rating-result">
+                     <span class="active"></span>	
+                     <span class="active"></span>    
+                     <span class="active"></span>  
+                     <span class="active"></span>    
+                     <span></span>
+                 </div>
+                </div>
+                <div class="book-title">Невидимые женщины
+                 </div>
+                <div class="author">Кэролайн Криадо Перес
+                 </div>
+                <div class="price">1000тг</div>
+                <a href="" class="buy-btn">Купить</a>
+            </div>
+        </div>
+        <div  data-id="geo" class="book-item">
+         <img class="book-img" src="img/gum/5.jpg" alt="">
+         <div class="book-tem-text">
+             <div class="rank">
+              <div class="rating-result">
+                  <span class="active"></span>	
+                  <span class="active"></span>    
+                  <span class="active"></span>  
+                  <span class="active"></span>    
+                  <span></span>
+              </div>
+             </div>
+             <div class="book-title">Невидимые женщины
+              </div>
+             <div class="author">Кэролайн Криадо Перес
+              </div>
+             <div class="price">1000тг</div>
+             <a href="" class="buy-btn">Купить</a>
+         </div>
+     </div>
+     <div data-id="bio" class="book-item">
+         <img class="book-img" src="img/gum/6.jpg" alt="">
+         <div class="book-tem-text">
+             <div class="rank">
+              <div class="rating-result">
+                  <span class="active"></span>	
+                  <span class="active"></span>    
+                  <span class="active"></span>  
+                  <span class="active"></span>    
+                  <span></span>
+              </div>
+             </div>
+             <div class="book-title">Невидимые женщины
+              </div>
+             <div class="author">Кэролайн Криадо Перес
+              </div>
+             <div class="price">1000тг</div>
+             <a href="" class="buy-btn">Купить</a>
+         </div>
+     </div>
+        </div>
+
+       
+    </div>
+</section>
+<section class="sign">
+    <div class="container">
+        <div class="signupFrm">
+            <form action="" class="form">
+              <h1 class="title-h2 ss1">Тест-драйв</h1>
+        
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Имя</label>
+              </div>
+        
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Электронная почта</label>
+              </div>
+        
+              <div class="inputContainer">
+                <input type="text" class="input" placeholder="a">
+                <label for="" class="label">Телефон</label>
+              </div>
+        
+        
+              <input type="submit" class="submitBtn" value="Отправить">
+            </form>
+          </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container ">
+            
+        <div class="header__top" >
+          <div class="logo">
+              <a href="#">
+                  <img src="img/book.png" alt="">
+              </a>
+          </div>
+          <nav class="menu">
+              <ul class="menu__list"> 
+                  <li class="menu__lits-item"><a href="#skidki1" class="menu__list-link">Главная</a></li>
+                  <li class="menu__lits-item"><a href="#catolog" class="menu__list-link">Магазин</a></li>
+                  <li class="menu__lits-item"><a href="#girls-menu " class="menu__list-link">Скидки</a></li>
+                  <li class="menu__lits-item"><a href="#" class="menu__list-link">Популярные</a></li>
+                  <li class="menu__lits-item"><a href="#infolbock" class="menu__list-link">Контакты</a></li>
+              </ul>
+          </nav>
+          <div class="exit">
+          <a href="https://api.whatsapp.com/send?phone=+77085905057">
+              <p class="phone">+77085905057</p></a>
+          </div>
+          </div>
+     
+      
+    </div>
+</footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="javascript/slick.min.js"></script>
+    
+    <script src="javascript/filter.js" ></script>
+    <script src="javascript/main.js"></script>
+</body>
+</html>

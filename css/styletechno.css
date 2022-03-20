@@ -1,0 +1,420 @@
+
+*{scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.title-text{
+    padding-top: 130px;
+    font-size: 35px;
+    color: #333333;
+    
+}
+.red-text{
+    color: #30c884;
+}
+html{
+    scroll-behavior: smooth;
+}
+a{color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: #30c884;
+   
+}
+::-webkit-scrollbar{
+    width: 24px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #143861;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: #F8FAFF;
+    
+}
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 187.5%; 
+    color: #4E1840;
+     
+}
+h1{
+    font-size: 600;
+}
+.logo{
+    margin-right: 25px;
+}
+header{
+    background-color: white;
+   border-bottom: 1px solid #30c884;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    right: 0;
+    left: 0;
+    
+}
+.header__top{
+
+min-width: 1200px;
+background-color: white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
+
+
+.menu{
+    margin-right: auto;
+}
+.menu__list{
+    display: flex;
+    
+}
+
+.menu__lits-item +.menu__lits-item {
+    margin-left: 24px ;
+    
+}
+.menu__list-link{
+    color: #333333;
+    text-decoration: none;
+    font-weight:  800;
+    font-size: 15px;
+    font-family: 'Raleway', sans-serif;
+    ;
+}
+a.menu__list-link:hover{
+    color: #30c884;
+    transition: 0.3s;
+    
+   
+}
+
+.carousel__item-img{
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.exit{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.phone{
+    font-size: 20px;
+    font-weight: 800;
+    color: #333333;
+    margin-right: 40px;
+}
+.phone:hover{
+    color: #30c884;
+    transition: 0.3s;  
+}
+.place{
+    font-size: 15px;
+    color: #30c884;
+    margin-left: 10px;
+    
+
+}
+
+
+.carousel__item-img{
+    margin-right: 10px;
+    width: 850px;
+    height: 450px;
+    border-radius: 20px;
+}
+.title-info{
+    background-color: #30c884;
+    height: 100vh;
+}
+.info-block{
+    padding-top: 130px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.block-1{
+    width: 880px;
+    
+    height: 450px;
+   
+}
+.main__info-1{
+    background-image: url("../img/2.jpg");
+    width: 400px;
+    margin-bottom: 25px;
+    height: 210px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+}
+.main__info-2{
+    background-image: url("../img/1.png");
+    width: 400px;
+    height: 210px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px;
+}
+.block-2{
+    box-shadow:         2px 2px 11px 0px rgba(50, 50, 50, 0.09);
+    width: 300px;
+    background-color: white;
+    height: 450px;
+    border-radius: 5px;
+    position: relative;
+    
+}
+.tovar-day{
+    margin-top: 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    padding: 10px 35px;
+    background-color: #F87B70;
+}
+.skidka-info{
+    margin-top: 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    padding: 10px 35px;
+    background-color: #66AAFB;
+}
+.tovar-phone{
+    margin-top: 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    padding: 10px 35px;
+    background-color: #F87B70;
+}
+.tovar-headphones{
+    margin-top: 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    padding: 10px 35px;
+    background-color: #ebb55a;
+}
+.tovar-watchs{
+    margin-top: 20px;
+    border-top-right-radius:8px ;
+    border-bottom-right-radius:8px ;
+    position: absolute;
+    padding: 10px 35px;
+    background-color: #009cf7;
+}
+.tovar-day-info{
+    color: white;
+    font-size: 15px;
+}
+.tovar-img{
+    height: 180px;
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 75px;
+}
+.tovar-text{
+    margin: 30px;
+    
+}
+.tovar-tag{
+    margin-bottom: 7px;
+    color: silver;
+    font-weight: 500;
+    
+}
+.tovar-name{
+    font-weight: 800;
+    font-size: 18px;
+}
+.price{
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.price-skidka{
+    align-items: center;
+    display: block;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+.price-number{
+    font-weight: 800;
+    font-size: 27px;
+    
+}
+.price-number-old{
+    text-decoration: line-through;
+    font-size: 20px;
+    margin-left: 10px;
+    color: silver;
+    font-weight: 500;
+}
+.btn-href{
+    padding: 10px 25px;
+    background-color: #30c884;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid;
+   cursor: pointer;
+   font-size: 20px;
+}
+.btn-href:hover{
+    background-color: white;
+    border-color: #30c884;
+    color: #30c884;
+    border: 1px solid #30c884;
+    transition: 0.5s;
+}
+
+.carousel{
+    margin-bottom: 100px;
+}
+.slick-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    list-style: none;
+}
+.slick-dots button{
+    font-size: 0;
+    border: none;
+    padding: 0;
+    margin: 0 10px;
+    background-color: #BCC8E5;
+    width: 50px;
+    height: 5px;
+}
+.slick-active button{
+    background-color: #30c884;
+    height: 7px;
+}
+.skidki_item{
+    padding: 60px 0px;
+
+    display: flex;
+    gap: 20px;
+}
+.skidka-banner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.popular{
+    
+    padding-bottom: 50px;
+    margin-bottom: 350px;
+}
+.airpods{
+    background-image: url("../img/banner-ap.png");
+    width: 640px;
+    height: 300px;
+    border-radius: 15px;
+}
+.iwatch{
+    background-image: url("../img/iwatch.png");
+    width: 640px;
+   background-size: 100%;
+   background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 15px;
+}
+.popular_items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.popular__menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: end;
+}
+#filter-btns{
+    display: flex;
+    color: silver;
+    cursor: pointer;
+    
+}
+#filter-btns li{
+    margin-right: 30px;
+    list-style-type: none;
+    
+}
+.popular .filter-buttons ul li.active{
+    color: #30c884;
+    padding-bottom: 5px;
+    border-bottom: #30c884 2px solid;
+}
+.about-us{
+  
+    
+    background-color:#2CB2C7 ;
+}
+.box{
+    height: 400px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    min-width: 600px
+}
+.box-img{
+    position: absolute;
+    top: -124px;
+    right: 10px;
+   
+}
+.box-content {
+    padding-top: 80px;
+    color: white;
+    
+}
+.top-title{
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+.box-title{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 35px;
+}
+
+.box-list{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    gap: 80px;
+    font-size: 25px ;
+}
+.box-text{
+    margin-left: 10px;
+}
+
+.new{
+    background-color: white;
+    height: 500px;
+}
+.check{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,143 @@
+html {
+    scroll-behavior: smooth;
+  }
+*{ text-decoration: none;
+    font-family: 'Jost', sans-serif;
+}
+header{
+    padding: 20px 0;
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.arrow-info{
+    color: rgb(151, 149, 149);
+    align-items: center;
+    margin-bottom: 35px;
+}
+.janr-info{
+    display: flex;     
+}
+.dalle{
+    color: rgb(100, 115, 247);
+   
+}
+.janr{
+    padding: 5px 10px;
+    border: 2px solid black;
+    margin-right: 15px;
+    border-radius: 5px;
+}
+.j1{
+    color: orange;
+    border-color: orange;
+}
+.j2{
+    color: #7CCD75;
+    border-color: #7CCD75;
+}
+.j3{
+    color: red;
+    border-color: red;
+}
+.rat1{
+    margin-right: 15px;
+}
+.produc-rating{
+    display: flex;
+    font-size: 25px;
+    align-items: center;
+}
+.book-content{
+    display: flex;
+}
+.b1{
+    height: 500px;
+}
+.harec{
+    justify-content: space-between;
+    display: flex;
+    max-width: 500px;
+}
+.harec2{
+    color: rgb(100, 115, 247);
+}
+.harec1{
+    color: rgb(151, 149, 149);
+    margin-bottom: 10px;
+}
+.book-text{
+    font-size: 20px;
+    margin-left: 50px;
+    max-width: 700px;
+}
+.book-buy{  
+    position: fixed;
+    right: 250px;
+    top: 150px;
+    margin-left: 50px;
+    height: 300px; 
+  width: 225px;
+    border: 1px solid;
+    z-index: 1000;
+}
+h4{
+    color: #7CCD75;
+}
+.price{
+    font-weight: bold;
+    font-size: 35px;
+}
+.cash{
+    font-weight: bold;
+    font-size: 15px;
+}
+.cash{
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.skidka{
+    margin-bottom: 35px;
+}
+.book-buy-content{
+    margin: 15px;
+}
+.btn{
+    font-size: 20px;
+    color: white;
+    background-color: #7CCD75;
+    padding: 10px 69px;
+    border: 1px solid #7CCD75;
+    transition: 0.5s;
+}
+.btn:hover{
+    color: #7CCD75;
+    background-color: white;
+    border: 1px solid #7CCD75;
+    transition: 0.5s;
+}
+.info-full{
+    font-size: 20px;
+    max-width: 900px;
+}
+.harec-info{
+    display: flex;
+}
+.info1{
+    min-width: 300px;
+    margin-right: 15px;
+}
+.coment-block{
+    margin-bottom: 15px;
+    display: flex;
+}
+.coment-name{
+    min-width: 300px;
+}
+.coment-text{
+    max-width: 750px;
+}
+.name{
+    font-weight: bold;
+}
